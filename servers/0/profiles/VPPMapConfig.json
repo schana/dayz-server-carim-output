@@ -1,0 +1,103 @@
+{
+  "M_STATIC_MARKER_ARRAY": [
+    {
+      "M_MARKER_NAME": "Green Mountain Trader",
+      "M_ICON_PATH": "VanillaPPMap\\GUI\\Textures\\CustomMapIcons\\waypointeditor_CA.paa",
+      "M_COLOR": [
+        255,
+        255,
+        255
+      ],
+      "M_POSITION": [
+        3727,
+        0,
+        6007
+      ],
+      "M_ISACTIVE": 1,
+      "M_IS_3D_ACTIVE": 1
+    },
+    {
+      "M_MARKER_NAME": "Kumyrna Trader",
+      "M_ICON_PATH": "VanillaPPMap\\GUI\\Textures\\CustomMapIcons\\waypointeditor_CA.paa",
+      "M_COLOR": [
+        255,
+        255,
+        255
+      ],
+      "M_POSITION": [
+        8355,
+        0,
+        5986
+      ],
+      "M_ISACTIVE": 1,
+      "M_IS_3D_ACTIVE": 1
+    },
+    {
+      "M_MARKER_NAME": "Altar Trader",
+      "M_ICON_PATH": "VanillaPPMap\\GUI\\Textures\\CustomMapIcons\\waypointeditor_CA.paa",
+      "M_COLOR": [
+        255,
+        255,
+        255
+      ],
+      "M_POSITION": [
+        8164,
+        0,
+        9113
+      ],
+      "M_ISACTIVE": 1,
+      "M_IS_3D_ACTIVE": 1
+    },
+    {
+      "M_MARKER_NAME": "Zabolotye Black Market Trader",
+      "M_ICON_PATH": "VanillaPPMap\\GUI\\Textures\\CustomMapIcons\\waypointeditor_CA.paa",
+      "M_COLOR": [
+        255,
+        255,
+        255
+      ],
+      "M_POSITION": [
+        1602.85,
+        0,
+        10413.2
+      ],
+      "M_ISACTIVE": 1,
+      "M_IS_3D_ACTIVE": 1
+    },
+    {
+      "M_MARKER_NAME": "NWAF",
+      "M_ICON_PATH": "VanillaPPMap\\GUI\\Textures\\CustomMapIcons\\waypointeditor_CA.paa",
+      "M_COLOR": [
+        255,
+        255,
+        255
+      ],
+      "M_POSITION": [
+        4541,
+        0,
+        10289
+      ],
+      "M_ISACTIVE": 1,
+      "M_IS_3D_ACTIVE": 1
+    },
+    {
+      "M_MARKER_NAME": "NEAF",
+      "M_ICON_PATH": "VanillaPPMap\\GUI\\Textures\\CustomMapIcons\\waypointeditor_CA.paa",
+      "M_COLOR": [
+        255,
+        255,
+        255
+      ],
+      "M_POSITION": [
+        12121,
+        0,
+        12521
+      ],
+      "M_ISACTIVE": 1,
+      "M_IS_3D_ACTIVE": 1
+    }
+  ],
+  "m_CanUse3DMarkers": 1,
+  "m_OwnPositionMarkerDisabled": 0,
+  "m_ForceMapItemOnly": 0
+}

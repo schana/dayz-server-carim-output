@@ -1,0 +1,52 @@
+{
+  "m_TeleportLocations": [
+    {
+      "m_Name": "Green Mountain Trader",
+      "m_Position": [
+        3727,
+        0,
+        6007
+      ]
+    },
+    {
+      "m_Name": "Kumyrna Trader",
+      "m_Position": [
+        8355,
+        0,
+        5986
+      ]
+    },
+    {
+      "m_Name": "Altar Trader",
+      "m_Position": [
+        8164,
+        0,
+        9113
+      ]
+    },
+    {
+      "m_Name": "Zabolotye Black Market Trader",
+      "m_Position": [
+        1602.85,
+        0,
+        10413.2
+      ]
+    },
+    {
+      "m_Name": "NWAF",
+      "m_Position": [
+        4541,
+        0,
+        10289
+      ]
+    },
+    {
+      "m_Name": "NEAF",
+      "m_Position": [
+        12121,
+        0,
+        12521
+      ]
+    }
+  ]
+}

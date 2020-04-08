@@ -1,0 +1,10 @@
+[
+  {
+    "playerId": "steam64id123",
+    "playerPerms": {
+      "CanOpenLocks": "true",
+      "CanChangePasscodes": "true",
+      "CanRemoveLocks": "true"
+    }
+  }
+]
