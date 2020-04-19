@@ -1,16 +1,13 @@
 <CurrencyName> #tm_ruble
 <Currency> MoneyRuble1, 1
-<Currency> MoneyRuble5, 5
 <Currency> MoneyRuble10, 10
-<Currency> MoneyRuble25, 25
-<Currency> MoneyRuble50, 50
 <Currency> MoneyRuble100, 100
 <Trader> auto
 <Category> Vehicles
 CivilianSedan,V,30000,20000
 CivilianSedan_Black,V,30000,20000
 CivilianSedan_Wine,V,30000,20000
-CrSk_BMW_525i_E34_black,V,50000,40000
+CrSk_BMW_525i_E34_beater,V,50000,40000
 Hatchback_02,V,30000,20000
 Hatchback_02_Black,V,30000,20000
 Hatchback_02_Blue,V,30000,20000
@@ -24,9 +21,19 @@ Sedan_02_Red,V,20000,10000
 CanisterGasoline,0,40,20
 CarBattery,*,70,35
 CarRadiator,*,200,100
+CivSedanWheel,*,200,100
+HatchbackWheel,*,200,100
+Hatchback_02_Wheel,*,200,100
 HeadlightH7_Box,*,10,5
+Sedan_02_Wheel,*,200,100
 SparkPlug,*,10,5
 TireRepairKit,*,10,5
+<Category> Money Exchange
+MoneyRuble10,1,10,10
+MoneyRuble100,1,100,100
+MoneyRuble25,1,-1,25
+MoneyRuble5,1,-1,5
+MoneyRuble50,1,-1,50
 <Trader> clothing
 <Category> Basic clothes
 BomberJacket_Black,*,20,15
@@ -685,7 +692,6 @@ MilitaryGear_SmershVest_PartizanM,*,100,50
 MilitaryGear_TacticalHelmet_PartizanM,*,100,50
 MilitaryGear_TacticalPants_PartizanM,*,100,50
 MilitaryGear_TacticalShirt_PartizanM,*,100,50
-MilitaryGear_TortillaBag_PartizanM,*,400,200
 <Category> Cl0uds Skol
 MilitaryGear_AliceBag_Skol,*,400,200
 MilitaryGear_AssaultBag_Skol,*,400,200
@@ -898,27 +904,34 @@ MSFC_HelmetPatch_UA,*,4,2
 MSFC_HelmetPatch_UK,*,4,2
 MSFC_HelmetPatch_UN,*,4,2
 MSFC_HelmetPatch_US,*,4,2
+<Category> Money Exchange
+MoneyRuble10,1,10,10
+MoneyRuble100,1,100,100
+MoneyRuble25,1,-1,25
+MoneyRuble5,1,-1,5
+MoneyRuble50,1,-1,50
 <Trader> food
 <Category> Food
 AgaricusMushroom,*,40,20
-Apple,*,6,3
+Apple,*,40,20
 AuriculariaMushroom,*,40,20
 BakedBeansCan,*,6,3
 BoletusMushroom,*,40,20
 BoxCerealCrunchin,*,6,3
-CaninaBerry,*,6,3
-GreenBellPepper,*,6,3
+CaninaBerry,*,40,20
+GreenBellPepper,*,40,20
 LactariusMushroom,*,40,20
 MacrolepiotaMushroom,*,40,20
 Marmalade,*,6,3
 PeachesCan,*,6,3
-Pear,*,6,3
+Pear,*,40,20
 PleurotusMushroom,*,40,20
-Plum,*,6,3
-Potato,*,6,3
+Plum,*,40,20
+Potato,*,40,20
 PowderedMilk,*,6,3
 Pumpkin,*,6,3
 Rice,*,6,3
+SambucusBerry,*,40,20
 SardinesCan,*,6,3
 SodaCan_Cola,*,6,3
 SodaCan_Kvass,*,6,3
@@ -931,14 +944,14 @@ WaterBottle,*,2,1
 Zucchini,*,6,3
 wonderbread_mung,*,6,3
 <Category> Hunting
-BearSteakMeat,S,20,10
-BoarSteakMeat,S,20,10
+BearSteakMeat,S,-1,1000
+BoarSteakMeat,S,-1,400
 Bone,S,-1,10
 ChickenBreastMeat,S,20,10
 CowPelt,S,-1,100
 CowSteakMeat,S,20,10
-DeerPelt,S,-1,100
-DeerSteakMeat,S,20,10
+DeerPelt,S,-1,400
+DeerSteakMeat,S,-1,400
 GoatPelt,S,-1,100
 GoatSteakMeat,S,20,10
 Guts,S,-1,5
@@ -948,10 +961,10 @@ PigSteakMeat,S,20,10
 SheepPelt,S,-1,100
 SheepSteakMeat,S,20,10
 SmallGuts,S,-1,5
-WildboarPelt,S,-1,100
+WildboarPelt,S,-1,400
 WolfPelt,S,-1,100
 WolfSteakMeat,S,20,10
-bearhead_mung,S,-1,100
+bearhead_mung,S,-1,1000
 <Category> Medical
 BandageDressing,*,20,10
 BloodBagEmpty,*,20,10
@@ -975,26 +988,41 @@ PepperSeedsPack,*,400,200
 PumpkinSeedsPack,*,400,200
 TomatoSeedsPack,*,400,200
 ZucchiniSeedsPack,*,400,200
+<Category> Money Exchange
+MoneyRuble10,1,10,10
+MoneyRuble100,1,100,100
+MoneyRuble25,1,-1,25
+MoneyRuble5,1,-1,5
+MoneyRuble50,1,-1,50
 <Trader> weapons
 <Category> Weapons
 AK74,W,300,150
+AKS74U,W,300,150
 B95,W,300,150
 CZ527,W,300,150
+CZ61,W,300,150
 CZ75,W,300,150
+Colt1911,W,300,150
+Engraved1911,W,300,150
 FNX45,W,300,150
 Gewehr43_mung,W,300,150
+Glock19,W,300,150
 Izh18,W,300,150
 Izh43Shotgun,W,300,150
+MKII,W,300,150
 MP5K,W,300,150
 MakarovIJ70,W,300,150
 Mosin9130,W,300,150
+Mp133Shotgun,W,300,150
 Nagant1895_mung,W,300,150
 Repeater,W,300,150
 SKS,W,300,150
 UMP45,W,300,150
+VSS,W,300,150
 Winchester70,W,300,150
 diana_m27_mung,W,300,150
 izh54_mung,W,300,150
+mcmillan_buttstock,W,300,150
 <Category> Sell everything
 AK101,W,-1,300
 AK74,W,-1,300
@@ -1045,7 +1073,6 @@ MassAR15,W,-1,300
 MassB52,W,-1,300
 MassG18,W,-1,300
 MassG18_Green,W,-1,300
-MassKivaari,W,-1,300
 MassM110,W,-1,300
 MassM16,W,-1,300
 MassM19,W,-1,300
@@ -1061,8 +1088,6 @@ MassStevens301_tan,W,-1,300
 MassTMP153,W,-1,300
 MassType81,W,-1,300
 Massarmsan,W,-1,300
-Massm300,W,-1,300
-Massm300_camo,W,-1,300
 Massmini14,W,-1,300
 Mosin9130,W,-1,300
 Repeater,W,-1,300
@@ -1072,6 +1097,12 @@ Saiga,W,-1,300
 UMP45,W,-1,300
 Winchester70,W,-1,300
 csmcmillan_mung,W,-1,300
+<Category> Money Exchange
+MoneyRuble10,1,10,10
+MoneyRuble100,1,100,100
+MoneyRuble25,1,-1,25
+MoneyRuble5,1,-1,5
+MoneyRuble50,1,-1,50
 <Trader> accessories
 <Category> Ammo stacks of 10
 Ammo_12gaPellets,10,20,10
@@ -1123,6 +1154,30 @@ Ammo_9x39,1,2,1
 Ammo_9x39AP,1,2,1
 MSFC_Ammo_127x108,1,6,3
 MSFC_Ammo_50BMG,1,6,3
+<Category> Ammo boxes
+AmmoBox_00buck_10rnd,*,20,15
+AmmoBox_12gaRubberSlug_10Rnd,*,20,15
+AmmoBox_12gaSlug_10Rnd,*,20,15
+AmmoBox_22_50Rnd,*,100,80
+AmmoBox_308WinTracer_20Rnd,*,80,60
+AmmoBox_308Win_20Rnd,*,80,60
+AmmoBox_338,*,60,40
+AmmoBox_357_20Rnd,*,40,30
+AmmoBox_380_35rnd,*,70,50
+AmmoBox_408Chey,*,60,40
+AmmoBox_45ACP_25rnd,*,50,40
+AmmoBox_545x39Tracer_20Rnd,*,40,30
+AmmoBox_545x39_20Rnd,*,40,30
+AmmoBox_556x45Tracer_20Rnd,*,40,30
+AmmoBox_556x45_20Rnd,*,40,30
+AmmoBox_762x39Tracer_20Rnd,*,40,30
+AmmoBox_762x39_20Rnd,*,40,30
+AmmoBox_762x54Tracer_20Rnd,*,80,60
+AmmoBox_762x54_20Rnd,*,80,60
+AmmoBox_9x19_25rnd,*,50,40
+AmmoBox_9x39AP_20Rnd,*,40,30
+AmmoBox_9x39_20Rnd,*,40,30
+MassAmmoBox_556x45_10Rnd,*,20,15
 <Category> Magazines
 MSFC_AK12_Mag_30Rnd,M,100,50
 MSFC_AK15_Mag_30Rnd,M,100,50
@@ -1172,7 +1227,7 @@ Mag_Saiga_8Rnd,M,20,10
 Mag_Saiga_Drum20Rnd,M,100,50
 Mag_UMP_25Rnd,M,50,25
 Mag_VSS_10Rnd,M,100,50
-Mag_cs5_10Rnd_mung,M,100,50
+Mag_cs5_10Rnd_mung,M,20,10
 Mag_gewehr43_10Rnd_mung,M,50,25
 Mag_lebedev_PL15_16Rnd,M,20,10
 Mass308STANAG,M,100,50
@@ -1183,14 +1238,12 @@ MassSVTmag,M,100,50
 Massm300mag,M,100,50
 Massppshbox,M,100,50
 Massppshdrum,M,100,50
-Scout556mag,M,100,50
+Scout556mag,M,20,10
 kivaarimag,M,100,50
-<Category> Weapon accessories
-ACOGOptic,*,200,100
+<Category> Handguards and Buttstocks
 AK74_Hndgrd,*,20,10
 AK74_WoodBttstck,*,20,10
 AKS74U_Bttstck,*,20,10
-AK_Bayonet,*,100,50
 AK_FoldingBttstck,*,20,10
 AK_FoldingBttstck_Black,*,20,10
 AK_FoldingBttstck_Green,*,20,10
@@ -1201,21 +1254,14 @@ AK_PlasticHndgrd,*,20,10
 AK_RailHndgrd,*,20,10
 AK_RailHndgrd_Black,*,20,10
 AK_RailHndgrd_Green,*,20,10
-AK_Suppressor,*,500,250
 AK_WoodBttstck,*,20,10
 AK_WoodBttstck_Black,*,20,10
 AK_WoodBttstck_Camo,*,20,10
 AK_WoodHndgrd,*,20,10
 AK_WoodHndgrd_Black,*,20,10
 AK_WoodHndgrd_Camo,*,20,10
-BUISOptic,*,200,100
-FNP45_MRDSOptic,*,200,100
 Fal_FoldingBttstck,*,20,10
 Fal_OeBttstck,*,20,10
-HuntingOptic,*,200,100
-KashtanOptic,*,200,100
-KazuarOptic,*,200,100
-KobraOptic,*,200,100
 M4_CQBBttstck,*,20,10
 M4_CarryHandleOptic,*,20,10
 M4_MPBttstck,*,20,10
@@ -1225,43 +1271,58 @@ M4_PlasticHndgrd,*,20,10
 M4_RISHndgrd,*,20,10
 M4_RISHndgrd_Black,*,20,10
 M4_RISHndgrd_Green,*,20,10
-M4_Suppressor,*,500,250
-M4_T3NRDSOptic,*,200,100
-M68Optic,*,200,100
-M9A1_Bayonet,*,100,50
-MP5_Compensator,*,100,50
 MP5_PlasticHndgrd,*,20,10
 MP5_RailHndgrd,*,20,10
 MP5k_StockBttstck,*,20,10
 MSFC_AK_Tactical_Buttstck,*,20,10
-MSFC_BarretOptic,*,200,100
-MSFC_DHG_Suppressor,*,500,250
-MSFC_OSV_Optic,*,200,100
-MSFC_PBS4_Suppressor,*,500,250
-MSFC_SWR_PistolSuppressor,*,500,250
-Mass1P69,*,200,100
-MassHolo,*,200,100
-MassHolo2,*,200,100
-MassMuzzle338,*,100,50
-MassMuzzle556,*,100,50
-MassMuzzle762,*,100,50
-MassMuzzlePistol,*,100,50
-MassScope,*,200,100
-MassScoutLRS,*,200,100
-MassScoutSuppressor,*,500,250
-MassSuppressor308,*,500,250
-Mosin_Bayonet,*,100,50
-Mosin_Compensator,*,100,50
-PSO11Optic,*,200,100
-PSO1Optic,*,200,100
-PUScopeOptic,*,200,100
-PistolSuppressor,*,500,250
-ReflexOptic,*,200,100
-SKS_Bayonet,*,100,50
+MSFC_AK_Zenitco_Handguard,*,20,10
 Saiga_Bttstck,*,20,10
 TLRLight,*,20,10
 UniversalLight,*,20,10
 mcmillan_buttstock,*,20,10
+<Category> Optics
+ACOGOptic,*,200,100
+BUISOptic,*,200,100
+FNP45_MRDSOptic,*,200,100
+HuntingOptic,*,200,100
+KashtanOptic,*,200,100
+KazuarOptic,*,200,100
+KobraOptic,*,200,100
+M4_CarryHandleOptic,*,200,100
+M4_T3NRDSOptic,*,200,100
+M68Optic,*,200,100
+MSFC_BarretOptic,*,200,100
+MSFC_OSV_Optic,*,200,100
+Mass1P69,*,200,100
+MassHolo,*,200,100
+MassHolo2,*,200,100
+MassPKA,*,200,100
+MassScope,*,200,100
+MassScoutLRS,*,200,100
+PSO11Optic,*,200,100
+PSO1Optic,*,200,100
+PUScopeOptic,*,200,100
+ReflexOptic,*,200,100
+<Category> Compensators
+AK_Bayonet,*,100,50
+M9A1_Bayonet,*,100,50
+MP5_Compensator,*,100,50
+MassMuzzle338,*,100,50
+MassMuzzle556,*,100,50
+MassMuzzle762,*,100,50
+MassMuzzlePistol,*,100,50
+Mosin_Bayonet,*,100,50
+Mosin_Compensator,*,100,50
+SKS_Bayonet,*,100,50
+<Category> Suppressors
+AK_Suppressor,*,500,250
+M4_Suppressor,*,500,250
+MSFC_DHG_Suppressor,*,500,250
+MSFC_PBS4_Suppressor,*,500,250
+MSFC_SWR_PistolSuppressor,*,500,250
+MassScoutSuppressor,*,500,250
+MassSuppressor308,*,500,250
+PistolSuppressor,*,500,250
 shotgun_Suppressor,*,500,250
 <Category> Explosives
 FlashGrenade,*,-1,50
@@ -1274,6 +1335,12 @@ M67Grenade,*,-1,50
 RDG2SmokeGrenade_Black,*,-1,50
 RDG2SmokeGrenade_White,*,-1,50
 RGD5Grenade,*,-1,50
+<Category> Money Exchange
+MoneyRuble10,1,10,10
+MoneyRuble100,1,100,100
+MoneyRuble25,1,-1,25
+MoneyRuble5,1,-1,5
+MoneyRuble50,1,-1,50
 <Trader> tools
 <Category> Simple Base
 Chopper_Bracket,*,50,25
@@ -1348,12 +1415,18 @@ MetalPlate,1,10,5
 MetalWire,1,10,5
 NailBox,*,10,5
 OrienteeringCompass,*,40,20
-Pot,*,40,20
+Pot,0,40,20
 Roadflare,*,40,20
 Rope,*,40,20
 SewingKit,*,50,25
 WeaponCleaningKit,*,50,25
 WoodenPlank,1,10,5
+<Category> Money Exchange
+MoneyRuble10,1,10,10
+MoneyRuble100,1,100,100
+MoneyRuble25,1,-1,25
+MoneyRuble5,1,-1,5
+MoneyRuble50,1,-1,50
 <Trader> bm
 <Category> Black Market
 AK101,W,20000,10000
@@ -1405,37 +1478,21 @@ MassAR15,W,20000,10000
 MassB52,W,20000,10000
 MassG18,W,20000,10000
 MassG18_Green,W,20000,10000
-MassKivaari,W,20000,10000
 MassM110,W,20000,10000
 MassM16,W,20000,10000
 MassM19,W,20000,10000
 MassM19_Wood,W,20000,10000
 MassMP153,W,20000,10000
-MassMP153Short,W,10000,5000
 MassPPSH41,W,20000,10000
-MassPPSH41_Black,W,10000,5000
-MassPPSH41_Camo,W,10000,5000
-MassPPSH41_Green,W,10000,5000
 MassPpskn,W,20000,10000
 MassSVT40,W,20000,10000
-MassSVT40_Black,W,10000,5000
-MassSVT40_Camo,W,10000,5000
-MassSVT40_Green,W,10000,5000
 MassScout556,W,20000,10000
 MassStevens301,W,20000,10000
-MassStevens301SHORT,W,10000,5000
-MassStevens301SHORT_green,W,10000,5000
-MassStevens301SHORT_tan,W,10000,5000
-MassStevens301SuperShort,W,10000,5000
-MassStevens301SuperShort_green,W,10000,5000
-MassStevens301SuperShort_tan,W,10000,5000
 MassStevens301_green,W,20000,10000
 MassStevens301_tan,W,20000,10000
 MassTMP153,W,20000,10000
 MassType81,W,20000,10000
 Massarmsan,W,20000,10000
-Massm300,W,20000,10000
-Massm300_camo,W,20000,10000
 Massmini14,W,20000,10000
 Mosin9130,W,20000,10000
 Repeater,W,20000,10000
@@ -1495,6 +1552,30 @@ Ammo_9x39,1,2,1
 Ammo_9x39AP,1,2,1
 MSFC_Ammo_127x108,1,6,3
 MSFC_Ammo_50BMG,1,6,3
+<Category> Ammo boxes
+AmmoBox_00buck_10rnd,*,20,15
+AmmoBox_12gaRubberSlug_10Rnd,*,20,15
+AmmoBox_12gaSlug_10Rnd,*,20,15
+AmmoBox_22_50Rnd,*,100,80
+AmmoBox_308WinTracer_20Rnd,*,80,60
+AmmoBox_308Win_20Rnd,*,80,60
+AmmoBox_338,*,60,40
+AmmoBox_357_20Rnd,*,40,30
+AmmoBox_380_35rnd,*,70,50
+AmmoBox_408Chey,*,60,40
+AmmoBox_45ACP_25rnd,*,50,40
+AmmoBox_545x39Tracer_20Rnd,*,40,30
+AmmoBox_545x39_20Rnd,*,40,30
+AmmoBox_556x45Tracer_20Rnd,*,40,30
+AmmoBox_556x45_20Rnd,*,40,30
+AmmoBox_762x39Tracer_20Rnd,*,40,30
+AmmoBox_762x39_20Rnd,*,40,30
+AmmoBox_762x54Tracer_20Rnd,*,80,60
+AmmoBox_762x54_20Rnd,*,80,60
+AmmoBox_9x19_25rnd,*,50,40
+AmmoBox_9x39AP_20Rnd,*,40,30
+AmmoBox_9x39_20Rnd,*,40,30
+MassAmmoBox_556x45_10Rnd,*,20,15
 <Category> Magazines
 MSFC_AK12_Mag_30Rnd,M,100,50
 MSFC_AK15_Mag_30Rnd,M,100,50
@@ -1544,7 +1625,7 @@ Mag_Saiga_8Rnd,M,20,10
 Mag_Saiga_Drum20Rnd,M,100,50
 Mag_UMP_25Rnd,M,50,25
 Mag_VSS_10Rnd,M,100,50
-Mag_cs5_10Rnd_mung,M,100,50
+Mag_cs5_10Rnd_mung,M,20,10
 Mag_gewehr43_10Rnd_mung,M,50,25
 Mag_lebedev_PL15_16Rnd,M,20,10
 Mass308STANAG,M,100,50
@@ -1555,14 +1636,12 @@ MassSVTmag,M,100,50
 Massm300mag,M,100,50
 Massppshbox,M,100,50
 Massppshdrum,M,100,50
-Scout556mag,M,100,50
+Scout556mag,M,20,10
 kivaarimag,M,100,50
-<Category> Weapon accessories
-ACOGOptic,*,200,100
+<Category> Handguards and Buttstocks
 AK74_Hndgrd,*,20,10
 AK74_WoodBttstck,*,20,10
 AKS74U_Bttstck,*,20,10
-AK_Bayonet,*,100,50
 AK_FoldingBttstck,*,20,10
 AK_FoldingBttstck_Black,*,20,10
 AK_FoldingBttstck_Green,*,20,10
@@ -1573,21 +1652,14 @@ AK_PlasticHndgrd,*,20,10
 AK_RailHndgrd,*,20,10
 AK_RailHndgrd_Black,*,20,10
 AK_RailHndgrd_Green,*,20,10
-AK_Suppressor,*,500,250
 AK_WoodBttstck,*,20,10
 AK_WoodBttstck_Black,*,20,10
 AK_WoodBttstck_Camo,*,20,10
 AK_WoodHndgrd,*,20,10
 AK_WoodHndgrd_Black,*,20,10
 AK_WoodHndgrd_Camo,*,20,10
-BUISOptic,*,200,100
-FNP45_MRDSOptic,*,200,100
 Fal_FoldingBttstck,*,20,10
 Fal_OeBttstck,*,20,10
-HuntingOptic,*,200,100
-KashtanOptic,*,200,100
-KazuarOptic,*,200,100
-KobraOptic,*,200,100
 M4_CQBBttstck,*,20,10
 M4_CarryHandleOptic,*,20,10
 M4_MPBttstck,*,20,10
@@ -1597,43 +1669,58 @@ M4_PlasticHndgrd,*,20,10
 M4_RISHndgrd,*,20,10
 M4_RISHndgrd_Black,*,20,10
 M4_RISHndgrd_Green,*,20,10
-M4_Suppressor,*,500,250
-M4_T3NRDSOptic,*,200,100
-M68Optic,*,200,100
-M9A1_Bayonet,*,100,50
-MP5_Compensator,*,100,50
 MP5_PlasticHndgrd,*,20,10
 MP5_RailHndgrd,*,20,10
 MP5k_StockBttstck,*,20,10
 MSFC_AK_Tactical_Buttstck,*,20,10
-MSFC_BarretOptic,*,200,100
-MSFC_DHG_Suppressor,*,500,250
-MSFC_OSV_Optic,*,200,100
-MSFC_PBS4_Suppressor,*,500,250
-MSFC_SWR_PistolSuppressor,*,500,250
-Mass1P69,*,200,100
-MassHolo,*,200,100
-MassHolo2,*,200,100
-MassMuzzle338,*,100,50
-MassMuzzle556,*,100,50
-MassMuzzle762,*,100,50
-MassMuzzlePistol,*,100,50
-MassScope,*,200,100
-MassScoutLRS,*,200,100
-MassScoutSuppressor,*,500,250
-MassSuppressor308,*,500,250
-Mosin_Bayonet,*,100,50
-Mosin_Compensator,*,100,50
-PSO11Optic,*,200,100
-PSO1Optic,*,200,100
-PUScopeOptic,*,200,100
-PistolSuppressor,*,500,250
-ReflexOptic,*,200,100
-SKS_Bayonet,*,100,50
+MSFC_AK_Zenitco_Handguard,*,20,10
 Saiga_Bttstck,*,20,10
 TLRLight,*,20,10
 UniversalLight,*,20,10
 mcmillan_buttstock,*,20,10
+<Category> Optics
+ACOGOptic,*,200,100
+BUISOptic,*,200,100
+FNP45_MRDSOptic,*,200,100
+HuntingOptic,*,200,100
+KashtanOptic,*,200,100
+KazuarOptic,*,200,100
+KobraOptic,*,200,100
+M4_CarryHandleOptic,*,200,100
+M4_T3NRDSOptic,*,200,100
+M68Optic,*,200,100
+MSFC_BarretOptic,*,200,100
+MSFC_OSV_Optic,*,200,100
+Mass1P69,*,200,100
+MassHolo,*,200,100
+MassHolo2,*,200,100
+MassPKA,*,200,100
+MassScope,*,200,100
+MassScoutLRS,*,200,100
+PSO11Optic,*,200,100
+PSO1Optic,*,200,100
+PUScopeOptic,*,200,100
+ReflexOptic,*,200,100
+<Category> Compensators
+AK_Bayonet,*,100,50
+M9A1_Bayonet,*,100,50
+MP5_Compensator,*,100,50
+MassMuzzle338,*,100,50
+MassMuzzle556,*,100,50
+MassMuzzle762,*,100,50
+MassMuzzlePistol,*,100,50
+Mosin_Bayonet,*,100,50
+Mosin_Compensator,*,100,50
+SKS_Bayonet,*,100,50
+<Category> Suppressors
+AK_Suppressor,*,500,250
+M4_Suppressor,*,500,250
+MSFC_DHG_Suppressor,*,500,250
+MSFC_PBS4_Suppressor,*,500,250
+MSFC_SWR_PistolSuppressor,*,500,250
+MassScoutSuppressor,*,500,250
+MassSuppressor308,*,500,250
+PistolSuppressor,*,500,250
 shotgun_Suppressor,*,500,250
 <Category> Explosives
 FlashGrenade,*,-1,50
@@ -1646,4 +1733,10 @@ M67Grenade,*,-1,50
 RDG2SmokeGrenade_Black,*,-1,50
 RDG2SmokeGrenade_White,*,-1,50
 RGD5Grenade,*,-1,50
+<Category> Money Exchange
+MoneyRuble10,1,10,10
+MoneyRuble100,1,100,100
+MoneyRuble25,1,-1,25
+MoneyRuble5,1,-1,5
+MoneyRuble50,1,-1,50
 <FileEnd>
